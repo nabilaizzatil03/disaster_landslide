@@ -1,11 +1,11 @@
-import React from "react";
-import { Route, Router, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
-import DetailPage from "./pages/DetailPage";
-import ManageDisaster from "./pages/ManageDisaster";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Dashboard from './pages/Dashboard';
+import DetailPage from './pages/DetailPage';
+import ManageDisaster from './pages/ManageDisaster';
 
 const App = () => {
   return (

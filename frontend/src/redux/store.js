@@ -1,10 +1,12 @@
-import { configureStore } from "@reduxjs/toolkit"
+import { configureStore } from '@reduxjs/toolkit';
+import userReducer from './userSlice';
+import disasterReducer from './disasterSlice';
 
 const store = configureStore({
-    reducer:{
-        user: userReducer,
-        disaster:disasterReducer,
-    }
-}) 
+  reducer: {
+    user: userReducer,
+    disasters: disasterReducer,
+  },
+});
 
-export default store
+export default store;
